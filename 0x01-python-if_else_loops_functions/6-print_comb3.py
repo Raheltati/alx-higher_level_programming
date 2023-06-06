@@ -1,7 +1,6 @@
 #!/usr/bin/python3
-for num in range(0, 90):
-    if num % 10 > num / 10:
-        if num != 89:
-            print("{:02d}, ".format(num), end='')
-                else:
-                    print("{:02d}".format(num))
+# 2-print_alphabet.py
+    """Print the alphabet in lowercase, not followed by a new line."""
+        for letter in range(97, 123):
+            print("{}".format(chr(letter)), end="")
+
